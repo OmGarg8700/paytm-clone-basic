@@ -1,0 +1,129 @@
+p{
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 1000px;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+header .bank{
+    font-weight: 700;
+}
+header .logo{
+    width: 100px;
+    position: absolute;
+    right: 10px;
+}
+header .logo img{
+    width: 100%;
+}
+
+/* next section  */
+.payment{
+    display: flex;
+    background-color: rgb(211, 205, 205);
+    height: 40px;
+    align-items: center;
+}
+.payment .sending p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.payment .upi-amount{
+    flex: 1;
+}
+.payment .upi-amount p{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.payment .sending-to{
+    font-size: 18px;
+    font-weight: 500;
+}
+.payment .down-arrow button{
+    background-color: transparent;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+.payment .down-arrow button img{
+    width: 20px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+
+/* Pin Details  */
+.pin{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    margin: 50px 60px;
+    margin-bottom: 30px;
+}
+.pin input{
+    width: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(9 18 93);
+    color: rgb(9 18 93);
+    outline: none;
+    height: 30px;
+    font-size: 25px;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+.show p{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+}
+
+
+/* confirm button  */
+.confirm-payment{
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+}
+.confirm-payment button{
+    width: 60px;
+    height: 55px;
+    background-color: rgb(9 18 93);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    border-radius: 50px;
+    font-size: 40px;
+}
+/* .confirm-payment button a{
+    color: white;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+} */

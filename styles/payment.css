@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-family: Roboto, Arial;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, Arial;
+    font-size: 18px;
+}
+
+header #circle{
+    background-color: #01baf1;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+header .number{
+    font-size: 14px;
+    display: flex;
+    margin-top: 7px;
+    vertical-align: middle;
+}
+header img{
+    height: 22px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 30px;
+}
+
+.main-amount-box{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-amount-box {
+    font-size: 18px;
+}
+
+.main-amount-box .main-payment{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-amount-box .main-payment p{
+    margin-top: 8px;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.main-amount-box .main-payment input{
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    width: 80px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+#message{
+    display: flex;
+    justify-content: center;
+}
+
+#message input{
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+#pay-button{
+    width: 80%;
+    background-color: #01baf1;
+    border: none;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UPI</title>
+        <!-- <link rel="stylesheet" href="styles/upi.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/upi.css">
+    </head>
+    <body>
+        <header>
+            <div class="bank">
+                <p>HDFC BANK</p>
+                <p>XXXXXXX0</p>
+            </div>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/1280px-UPI-Logo-vector.svg.png" alt="">
+        </div>
+    </header>
+    <div class="payment">
+        <div class="sending">
+            <p>Sending &#8377;</p>
+        </div>
+        <div class="upi-amount">
+            <p>20.00</p>
+        </div>
+        <div class="sending-to">
+            <p>To: Kodechef Fo.. </p>
+        </div>
+        <div class="down-arrow">
+            <button><img src="634854-200.png" alt=""></button>
+        </div>
+    </div>
+    <div class="line">
+        <p>ENTER 4 DIGIT-UPI PIN</p>
+    </div>
+    <div class="pin">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+    </div>
+    <div class="show">
+        <p>&#128065;</p>
+        <p>SHOW</p>
+    </div>
+    <div class="confirm-payment">
+        <!-- here will be link for next page  -->
+        <button onclick="upi_fun()">&#10003;</button>
+    </div>
+    
+    <script>
+       function upi_fun(){
+           location.href = "index.html";
+        }
+        </script>
+<script src="javascript/payment.js"></script>
+</body>
+</html>
